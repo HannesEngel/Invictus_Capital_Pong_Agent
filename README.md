@@ -40,11 +40,11 @@ Please follow the steps below to help you set up the environment in which the po
 
     - Install the TensorFlow pip package
         Through the virtual environment:
-            pip install --upgrade tensorflow
-            python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+                pip install --upgrade tensorflow
+                python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
         System install:
-            pip3 install --user --upgrade tensorflow  # install in $HOME
-            python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+                pip3 install --user --upgrade tensorflow  # install in $HOME
+                python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 
     - Install the Keras library
         pip install keras
