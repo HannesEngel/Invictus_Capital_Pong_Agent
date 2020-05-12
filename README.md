@@ -13,23 +13,29 @@ Please follow the steps below to help you set up the environment in which the po
         If these packages are already installed, skip to the next step.
         Otherwise, install Python, the pip package manager, and Virtualenv using the Homebrew package manager.
         Here is the code to do so:
+        
             For MacOS:
                 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
                 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
                 brew update
                 brew install python  # Python 3
                 sudo pip3 install -U virtualenv  # system-wide install
+                
             For Windows:
                 pip3 install -U pip virtualenv
 
     - Create a virtual environment (optional and recommended) by running the following code in your terminal/command line:
+        
         For Ubuntu/MacOS:
+            
             virtualenv --system-site-packages -p python3 ./venv
             source ./venv/bin/activate  # sh, bash, ksh, or zsh
             pip install --upgrade pip
             pip list  # show packages installed within the virtual environment
             deactivate  # don't exit until you're done using TensorFlow
+        
         For Windows:
+            
             virtualenv --system-site-packages -p python3 ./venv
             .\venv\Scripts\activate
             pip install --upgrade pip
@@ -40,24 +46,28 @@ Please follow the steps below to help you set up the environment in which the po
 
     - Install the TensorFlow pip package
         Through the virtual environment:
+        
                 pip install --upgrade tensorflow
+                
                 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
         System install:
+        
                 pip3 install --user --upgrade tensorflow  # install in $HOME
+                
                 python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 
     - Install the Keras library
-        pip install keras
+             pip install keras
 
     - Install the gym environment pOng-v0
-        pip install gym
-        pip install 'gym[atari]'
+            pip install gym
+            pip install 'gym[atari]'
 
     - Install the Numpy library
-        pip install numpy
-
+            pip install numpy
+    
     - Install Matplotlib
-        pip install matplotlib
+            pip install matplotlib
 
 2. Please download the following files and save them in a single folder:
     - python_file_RUN_ME.py # main Python file that needs to be run
