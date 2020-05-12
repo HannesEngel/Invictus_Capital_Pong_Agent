@@ -57,16 +57,21 @@ Please follow the steps below to help you set up the environment in which the po
                 python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 
     - Install the Keras library
-             pip install keras
+    
+            pip install keras
 
     - Install the gym environment pOng-v0
+    
             pip install gym
+            
             pip install 'gym[atari]'
 
     - Install the Numpy library
+            
             pip install numpy
     
     - Install Matplotlib
+            
             pip install matplotlib
 
 2. Please download the following files and save them in a single folder:
