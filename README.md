@@ -89,8 +89,11 @@ This lets the pong-agent play 20 episodes (first to 21 points) against the AI pl
 This only takes a minute or two to run. 
 
 ** Other related files included in this Github repo include:
+
     - pong-agent demo.gif: Visual demonstration of our pong-agent playing against the AI competitor. Only 3000 steps of the       game have been visualized, amounting to a several episodes (first to 21 points). 
       Please open this file and scroll through the frames to see how the agent plays. This visualization does not represent       the pong-agent's performance during the 20 testing episodes.
+      
     - Pong Game Notebook.ipynb: This is the Jupyter Notebook in which the pong-agent was created and trained. It also
       includes the code required to visualize the game as the pong-agent plays.
+      
     - Pong Game Report: This the the report detailing the work done to create, train and visualize the pong-agent.
