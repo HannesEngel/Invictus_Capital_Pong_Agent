@@ -6,9 +6,9 @@ Please follow the steps below to help you set up the environment in which the po
 1. System requirements
     - Check if your Python environment is already configured by running each of the following lines of code in your terminal/command line:
         
-        python3 --version
-        pip3 --version
-        virtualenv --version
+            python3 --version
+            pip3 --version
+            virtualenv --version
 
         If these packages are already installed, skip to the next step.
         Otherwise, install Python, the pip package manager, and Virtualenv using the Homebrew package manager.
@@ -48,12 +48,10 @@ Please follow the steps below to help you set up the environment in which the po
         Through the virtual environment:
         
                 pip install --upgrade tensorflow
-                
                 python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
         System install:
         
                 pip3 install --user --upgrade tensorflow  # install in $HOME
-                
                 python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 
     - Install the Keras library
@@ -63,7 +61,6 @@ Please follow the steps below to help you set up the environment in which the po
     - Install the gym environment pOng-v0
     
             pip install gym
-            
             pip install 'gym[atari]'
 
     - Install the Numpy library
@@ -90,10 +87,10 @@ This only takes a minute or two to run.
 
 ** Other related files included in this Github repo include:
 
-    - pong-agent demo.gif: Visual demonstration of our pong-agent playing against the AI competitor. Only 3000 steps of the       game have been visualized, amounting to a several episodes (first to 21 points). 
-      Please open this file and scroll through the frames to see how the agent plays. This visualization does not represent       the pong-agent's performance during the 20 testing episodes.
-      
-    - Pong Game Notebook.ipynb: This is the Jupyter Notebook in which the pong-agent was created and trained. It also
-      includes the code required to visualize the game as the pong-agent plays.
-      
-    - Pong Game Report: This the the report detailing the work done to create, train and visualize the pong-agent.
+- pong-agent demo.gif: Visual demonstration of our pong-agent playing against the AI competitor. Only 3000 steps of the       game have been visualized, amounting to a several episodes (first to 21 points). 
+  Please open this file and scroll through the frames to see how the agent plays. This visualization does not represent       the pong-agent's performance during the 20 testing episodes.
+
+- Pong Game Notebook.ipynb: This is the Jupyter Notebook in which the pong-agent was created and trained. It also
+  includes the code required to visualize the game as the pong-agent plays.
+
+- Pong Game Report: This the the report detailing the work done to create, train and visualize the pong-agent.
