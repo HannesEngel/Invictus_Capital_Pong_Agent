@@ -80,7 +80,7 @@ Please follow the steps below to help you set up the environment in which the po
 3. Still inside the virtual environment, CD (change directory) into the directory where the above files are located and run the following
 code in your terminal/command line:
 
-    python3 python_file_RUN_ME.py
+        python3 python_file_RUN_ME.py
 
 This lets the pong-agent play 20 episodes (first to 21 points) against the AI player and returns the pong-agent's performance on those 20 episodes. 
 This only takes a minute or two to run. 
