@@ -71,7 +71,7 @@ Please follow the steps below to help you set up the environment in which the po
             
             pip install matplotlib
 
-2. Please download the following files and save them in a single folder:
+2. Please download the following files and save them in THE SAME folder:
     - python_file_RUN_ME.py # main Python file that needs to be run
     - support.py # support file containing helper functions
     - model.h5 # contains model parameters
