@@ -1,5 +1,5 @@
 Please follow the steps below to help you set up the environment in which the pong-agent will play.
-
+##
 1. System requirements
     - Check if your Python environment is already configured by running each of the following lines of code in your terminal/command line:
         
